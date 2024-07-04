@@ -1,0 +1,119 @@
+body {
+  background-image: url(../emerald-img/space.jpg);
+}
+.div1 {
+  margin-left: 350px;
+  margin-top: 20px;
+  background-color: rgba(128, 128, 128, 0.555);
+  width: 550px;
+  height: 520px;
+  padding-left: 80px;
+  padding-top: 10px;
+  border-radius: 10px;
+}
+input {
+  width: 450px;
+  height: 50px;
+  background-color: transparent;
+  border: 2px solid goldenrod;
+  border-radius: 10px;
+  font-size: 20px;
+  color: rgb(211, 206, 194);
+  padding-left: 10px;
+}
+::placeholder {
+  color: rgb(211, 206, 194);
+}
+h2 {
+  color: rgb(155, 120, 33);
+  font-size: 30px;
+  margin-left: 150px;
+  animation-name: reg;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+h1 {
+  background: linear-gradient(to right, goldenrod, white, white);
+  -webkit-background-clip: text;
+  color: transparent;
+  font-size: 48px;
+  animation-name: spa;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes spa {
+  0% {
+    margin-left: 0;
+  }
+
+  100% {
+    margin-left: 700px;
+  }
+}
+
+@keyframes reg {
+  30% {
+    color: goldenrod;
+  }
+
+  70% {
+    color: white;
+  }
+}
+
+.body {
+  background-image: url(../emerald-img/photo2.avif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.h1 {
+  animation-name: none;
+  margin-top: 0;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+ul {
+  display: flex;
+  justify-content: space-between;
+
+  list-style: none;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+.logindiv {
+  display: flex;
+  justify-content: space-evenly;
+
+  width: 250px;
+  margin-top: 10px;
+}
+
+.bodydiv {
+  margin-top: 150px;
+  text-align: center;
+}
+.visitdiv {
+  display: flex;
+  justify-content: space-between;
+  width: 200px;
+  height: 45px;
+  background-color: goldenrod;
+  padding-left: 20px;
+  border-radius: 5px;
+  margin-left: 550px;
+}
+.h2 {
+  animation-name: none;
+  margin-left: 0;
+  color: white;
+}
